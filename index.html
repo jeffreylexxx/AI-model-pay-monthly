@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>全球主流 AI 语言模型月费图鉴</title>
+  <style>
+    :root {
+      --bg:#060816;--panel:rgba(15,22,48,.76);--line:rgba(255,255,255,.1);--text:#eef3ff;--muted:#aab7d6;
+      --cyan:#62e6ff;--violet:#8b7bff;--pink:#ff5fd2;--green:#7ef0a7;--red:#ff5f7a;
+    }
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--text);background:
+    radial-gradient(circle at 10% 10%, rgba(98,230,255,.18), transparent 28%),
+    radial-gradient(circle at 85% 12%, rgba(255,95,210,.16), transparent 28%),
+    radial-gradient(circle at 55% 85%, rgba(139,123,255,.16), transparent 30%),
+    linear-gradient(180deg,#050814 0%,#0a1021 55%,#05070f 100%);} .wrap{width:min(1280px,calc(100% - 32px));margin:0 auto;padding:28px 0 56px}
+    .hero,.section,.footer{border:1px solid var(--line);background:var(--panel);backdrop-filter:blur(18px);border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+    .hero{padding:32px}.eyebrow{display:inline-block;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);font-size:13px}
+    h1{font-size:clamp(34px,6vw,68px);line-height:.98;letter-spacing:-.03em;margin:16px 0 14px}.gradient{background:linear-gradient(90deg,#fff 0%,#93f3ff 35%,#b295ff 68%,#ffd36a 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{max-width:900px;color:var(--muted);font-size:17px;line-height:1.8}.sub{margin-top:12px;color:var(--muted);font-size:14px;line-height:1.8}
+    .section{margin-top:26px;padding:24px}.section h2{margin:0 0 10px;font-size:clamp(24px,4vw,38px)} .section p{margin:0 0 18px;color:var(--muted);line-height:1.8}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{position:relative;overflow:hidden;padding:22px;border-radius:24px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(16,23,49,.88),rgba(11,16,34,.92))}
+    .card-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.provider{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.card h3{margin:6px 0 0;font-size:28px;letter-spacing:-.03em}
+    .badge{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid rgba(255,255,255,.12)} .badge-new{background:rgba(255,95,122,.12);color:#ffd7de;border-color:rgba(255,95,122,.35)} .badge-same{background:rgba(126,240,167,.12);color:#ddffe8;border-color:rgba(126,240,167,.35)}
+    .price{margin:18px 0 8px;font-size:clamp(28px,5vw,48px);font-weight:900;letter-spacing:-.04em}.charging-status{display:inline-block;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);font-size:13px;color:#dce8ff;margin-bottom:14px}
+    .desc,.notes,.meta-line,.change{font-size:14px;line-height:1.85}.desc{color:#d8e2fb}.notes,.meta-line{color:var(--muted)} .change{margin-top:10px;color:#ffd7de}
+    .footer{margin-top:26px;padding:20px 24px;color:var(--muted);line-height:1.9;font-size:14px}
+    @media (max-width:980px){.grid{grid-template-columns:1fr}.hero,.section,.footer{padding:20px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">可部署到 GitHub Pages · 自动每日检查价格变化</div>
+      <h1><span class="gradient">全球主流 AI 语言模型月费图鉴</span></h1>
+      <p class="lead">这不是一张 API 价目表，而是一张面向真实用户的 AI 月费图鉴：只看订阅，不看 token；只看语言模型，不看图像、音频、视频。</p>
+      <p class="sub">最近构建：2026/5/7 19:26:42 ｜ 最近数据检查：尚未检查 ｜ 红色 NEW = 今天发现价格变化 ｜ 绿色 SAME = 与前一天一致</p>
+    </section>
+    
+      <section class="section">
+        <h2>国际主流 AI 语言模型</h2>
+        <p>国际产品的月费体系已经相对成熟，20 美元附近是主流入门档，100~250 美元是重度工作流档。</p>
+        <div class="grid">
+          
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">OpenAI</div>
+      <h3>ChatGPT</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$20 / $200 / $25~30/seat</div>
+  <div class="charging-status">成熟订阅体系</div>
+  <p class="desc">从 Plus 到 Pro 再到 Business，分层清晰，是最典型的 AI 订阅产品之一。</p>
+  <div class="notes">Plus: $20/月；Pro: $200/月；Business: 约 $25~30/用户/月；Enterprise 定制</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">Anthropic</div>
+      <h3>Claude</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$20 / $100 / $200 / $20~25/seat</div>
+  <div class="charging-status">个人与团队分层明显</div>
+  <p class="desc">从 Pro 到 Max，再到 Team，明显面向不同强度的知识工作与编程工作流。</p>
+  <div class="notes">Pro: $20/月；Max 5x: $100/月；Max 20x: $200/月；Team: $20~25/席位/月</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">Google</div>
+      <h3>Gemini / Google AI</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$19.99 / $249.99</div>
+  <div class="charging-status">生态权益型套餐</div>
+  <p class="desc">Google 的 AI 订阅更像生态能力包，不只是单独的聊天模型会员。</p>
+  <div class="notes">Google AI Pro: $19.99/月；Google AI Ultra: $249.99/月</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">xAI</div>
+      <h3>Grok</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$30 / $300</div>
+  <div class="charging-status">高冲击定价</div>
+  <p class="desc">偏社交平台生态和高强度用户分层，价格风格也更激进。</p>
+  <div class="notes">常见公开订阅口径约 $30/月；重度档可见 $300/月</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">Perplexity</div>
+      <h3>Perplexity AI</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$20 / $40~325/seat</div>
+  <div class="charging-status">研究导向订阅体系</div>
+  <p class="desc">Perplexity 的收费逻辑很聚焦：个人 Pro 主打深度搜索与研究，企业方案则更强调协作、权限和高配额度。</p>
+  <div class="notes">Pro: $20/月；Enterprise Pro 约 $40/用户/月；更高 Enterprise Max 可见到 $325/用户/月</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">Meta</div>
+      <h3>Meta AI</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">无（仍在测试订阅化）</div>
+  <div class="charging-status">免费为主 / 测试高级订阅</div>
+  <p class="desc">Meta AI 目前公开口径仍以免费能力为主，但 Meta 已在测试面向更多 AI 功能与生产力特性的高级订阅方案。</p>
+  <div class="notes">当前没有清晰统一的公开月费；更接近“免费主产品 + 正在试水高级订阅”</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card top">
+  <div class="card-head">
+    <div>
+      <div class="provider">Microsoft</div>
+      <h3>Copilot</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$20 / $21~30/seat</div>
+  <div class="charging-status">个人与企业双线收费</div>
+  <p class="desc">Copilot 的收费明显分为个人和企业两条线：个人是 Copilot Pro，企业则更多绑定 Microsoft 365 体系按席位收费。</p>
+  <div class="notes">Copilot Pro: $20/月；企业 / Microsoft 365 Copilot 常见约 $21~30/用户/月，视方案而定</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+        </div>
+      </section>
+    
+      <section class="section">
+        <h2>中国主流 AI 语言模型</h2>
+        <p>中国市场还在从免费增长走向商业化验证，有的已经开始会员化，有的仍以平台和企业方案为主。</p>
+        <div class="grid">
+          
+<article class="card china">
+  <div class="card-head">
+    <div>
+      <div class="provider">DeepSeek</div>
+      <h3>DeepSeek</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">无</div>
+  <div class="charging-status">当前以免费 / 平台调用为主</div>
+  <p class="desc">目前更像能力平台而不是成熟月费会员产品，公开统一月费口径不明确。</p>
+  <div class="notes">暂无清晰统一的个人月费订阅口径</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card china">
+  <div class="card-head">
+    <div>
+      <div class="provider">阿里云</div>
+      <h3>通义千问 / Qwen</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">无统一公开月费</div>
+  <div class="charging-status">平台 / 企业方案为主</div>
+  <p class="desc">Qwen 更强在平台与企业接入，目前缺少统一清晰的个人月费订阅结构。</p>
+  <div class="notes">偏百炼 / Model Studio / 企业方案，不是单一消费者会员价</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card china">
+  <div class="card-head">
+    <div>
+      <div class="provider">字节跳动</div>
+      <h3>豆包 / Doubao</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">68 / 200 / 500 元/月</div>
+  <div class="charging-status">测试收费中</div>
+  <p class="desc">正在从免费获客转向分层会员化，是中国大模型商业化的重要信号之一。</p>
+  <div class="notes">标准版 68 元/月；增强版 200 元/月；专业版 500 元/月（测试阶段）</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card china">
+  <div class="card-head">
+    <div>
+      <div class="provider">Moonshot AI</div>
+      <h3>Kimi</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$19 / $39 / $99 / $199</div>
+  <div class="charging-status">会员分层化</div>
+  <p class="desc">开始把研究、代码、Agent 等能力封装成多档会员，是中国市场中较接近国际订阅节奏的产品。</p>
+  <div class="notes">公开资料可见多个会员档位，约 $19/月起，上探到 $199/月</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card china">
+  <div class="card-head">
+    <div>
+      <div class="provider">MiniMax</div>
+      <h3>MiniMax</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$39/月起</div>
+  <div class="charging-status">套餐 / Agent 方案</div>
+  <p class="desc">更像工具包订阅和 Agent 能力包，不是单纯聊天月费。</p>
+  <div class="notes">MiniMax Agent 可见 Basic $39/月等套餐口径</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+<article class="card china">
+  <div class="card-head">
+    <div>
+      <div class="provider">智谱 AI</div>
+      <h3>GLM / 智谱清言</h3>
+    </div>
+    <span class="badge badge-same">SAME</span>
+  </div>
+  <div class="price">$10/月起（编码计划口径）</div>
+  <div class="charging-status">开始订阅化 / 计划制</div>
+  <p class="desc">GLM 体系正在从模型能力供给走向更明确的套餐化，其中编码类计划已经出现按季度 / 折算月费的订阅表达。</p>
+  <div class="notes">公开资料可见 GLM Coding Plan Lite 约 $30/季度，折合约 $10/月；不同档位与权益仍可能调整</div>
+  <div class="meta-line">最近检查：尚未检查</div>
+  
+</article>
+        </div>
+      </section>
+    
+    <section class="footer">
+      <strong style="color:#fff">说明：</strong>价格和权益变化很快，实际以各家官方页面、产品内页面或正式公告为准。<br>
+      本项目设计为可上传 GitHub 仓库：GitHub Actions 每天定时抓取已配置来源页面，比较价格字段是否变化，若变化则写入新值并标记 <strong style="color:#fff">NEW</strong>；若无变化，则维持前一日数据并显示 <strong style="color:#fff">SAME</strong>。
+    </section>
+  </div>
+</body>
+</html>

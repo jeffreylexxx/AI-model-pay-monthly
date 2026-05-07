@@ -1,0 +1,224 @@
+[
+  {
+    "id": "chatgpt",
+    "region": "international",
+    "provider": "OpenAI",
+    "name": "ChatGPT",
+    "price": "$20 / $200 / $25~30/seat",
+    "status": "same",
+    "chargingStatus": "成熟订阅体系",
+    "description": "从 Plus 到 Pro 再到 Business，分层清晰，是最典型的 AI 订阅产品之一。",
+    "notes": "Plus: $20/月；Pro: $200/月；Business: 约 $25~30/用户/月；Enterprise 定制",
+    "sources": [
+      "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "https://openai.com/business/chatgpt-pricing/"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "claude",
+    "region": "international",
+    "provider": "Anthropic",
+    "name": "Claude",
+    "price": "$20 / $100 / $200 / $20~25/seat",
+    "status": "same",
+    "chargingStatus": "个人与团队分层明显",
+    "description": "从 Pro 到 Max，再到 Team，明显面向不同强度的知识工作与编程工作流。",
+    "notes": "Pro: $20/月；Max 5x: $100/月；Max 20x: $200/月；Team: $20~25/席位/月",
+    "sources": [
+      "https://support.claude.com/en/articles/11049762-choosing-a-claude-plan"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "gemini",
+    "region": "international",
+    "provider": "Google",
+    "name": "Gemini / Google AI",
+    "price": "$19.99 / $249.99",
+    "status": "same",
+    "chargingStatus": "生态权益型套餐",
+    "description": "Google 的 AI 订阅更像生态能力包，不只是单独的聊天模型会员。",
+    "notes": "Google AI Pro: $19.99/月；Google AI Ultra: $249.99/月",
+    "sources": [
+      "https://www.eesel.ai/blog/google-ai-ultra"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "grok",
+    "region": "international",
+    "provider": "xAI",
+    "name": "Grok",
+    "price": "$30 / $300",
+    "status": "same",
+    "chargingStatus": "高冲击定价",
+    "description": "偏社交平台生态和高强度用户分层，价格风格也更激进。",
+    "notes": "常见公开订阅口径约 $30/月；重度档可见 $300/月",
+    "sources": [
+      "https://zerotwo.ai/pricing/grok-premium"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "perplexity",
+    "region": "international",
+    "provider": "Perplexity",
+    "name": "Perplexity AI",
+    "price": "$20 / $40~325/seat",
+    "status": "same",
+    "chargingStatus": "研究导向订阅体系",
+    "description": "Perplexity 的收费逻辑很聚焦：个人 Pro 主打深度搜索与研究，企业方案则更强调协作、权限和高配额度。",
+    "notes": "Pro: $20/月；Enterprise Pro 约 $40/用户/月；更高 Enterprise Max 可见到 $325/用户/月",
+    "sources": [
+      "https://screenapp.io/blog/perplexity-pricing"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "meta-ai",
+    "region": "international",
+    "provider": "Meta",
+    "name": "Meta AI",
+    "price": "无（仍在测试订阅化）",
+    "status": "same",
+    "chargingStatus": "免费为主 / 测试高级订阅",
+    "description": "Meta AI 目前公开口径仍以免费能力为主，但 Meta 已在测试面向更多 AI 功能与生产力特性的高级订阅方案。",
+    "notes": "当前没有清晰统一的公开月费；更接近“免费主产品 + 正在试水高级订阅”",
+    "sources": [
+      "https://www.cnbc.com/2026/01/27/meta-to-test-premium-subscription-plans-for-instagram-facebook-and-whatsapp.html"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "copilot",
+    "region": "international",
+    "provider": "Microsoft",
+    "name": "Copilot",
+    "price": "$20 / $21~30/seat",
+    "status": "same",
+    "chargingStatus": "个人与企业双线收费",
+    "description": "Copilot 的收费明显分为个人和企业两条线：个人是 Copilot Pro，企业则更多绑定 Microsoft 365 体系按席位收费。",
+    "notes": "Copilot Pro: $20/月；企业 / Microsoft 365 Copilot 常见约 $21~30/用户/月，视方案而定",
+    "sources": [
+      "https://www.aguidetocloud.com/licensing/copilot-pro/"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "deepseek",
+    "region": "china",
+    "provider": "DeepSeek",
+    "name": "DeepSeek",
+    "price": "无",
+    "status": "same",
+    "chargingStatus": "当前以免费 / 平台调用为主",
+    "description": "目前更像能力平台而不是成熟月费会员产品，公开统一月费口径不明确。",
+    "notes": "暂无清晰统一的个人月费订阅口径",
+    "sources": [
+      "https://api-docs.deepseek.com/quick_start/pricing-details-usd"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "qwen",
+    "region": "china",
+    "provider": "阿里云",
+    "name": "通义千问 / Qwen",
+    "price": "无统一公开月费",
+    "status": "same",
+    "chargingStatus": "平台 / 企业方案为主",
+    "description": "Qwen 更强在平台与企业接入，目前缺少统一清晰的个人月费订阅结构。",
+    "notes": "偏百炼 / Model Studio / 企业方案，不是单一消费者会员价",
+    "sources": [
+      "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "doubao",
+    "region": "china",
+    "provider": "字节跳动",
+    "name": "豆包 / Doubao",
+    "price": "68 / 200 / 500 元/月",
+    "status": "same",
+    "chargingStatus": "测试收费中",
+    "description": "正在从免费获客转向分层会员化，是中国大模型商业化的重要信号之一。",
+    "notes": "标准版 68 元/月；增强版 200 元/月；专业版 500 元/月（测试阶段）",
+    "sources": [
+      "https://global.chinadaily.com.cn/a/202605/06/WS69fa79bea310d6866eb46f3e.html"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "kimi",
+    "region": "china",
+    "provider": "Moonshot AI",
+    "name": "Kimi",
+    "price": "$19 / $39 / $99 / $199",
+    "status": "same",
+    "chargingStatus": "会员分层化",
+    "description": "开始把研究、代码、Agent 等能力封装成多档会员，是中国市场中较接近国际订阅节奏的产品。",
+    "notes": "公开资料可见多个会员档位，约 $19/月起，上探到 $199/月",
+    "sources": [
+      "https://kimik2ai.com/pricing/"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "minimax",
+    "region": "china",
+    "provider": "MiniMax",
+    "name": "MiniMax",
+    "price": "$39/月起",
+    "status": "same",
+    "chargingStatus": "套餐 / Agent 方案",
+    "description": "更像工具包订阅和 Agent 能力包，不是单纯聊天月费。",
+    "notes": "MiniMax Agent 可见 Basic $39/月等套餐口径",
+    "sources": [
+      "https://agent.minimax.io/pricing"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  },
+  {
+    "id": "glm",
+    "region": "china",
+    "provider": "智谱 AI",
+    "name": "GLM / 智谱清言",
+    "price": "$10/月起（编码计划口径）",
+    "status": "same",
+    "chargingStatus": "开始订阅化 / 计划制",
+    "description": "GLM 体系正在从模型能力供给走向更明确的套餐化，其中编码类计划已经出现按季度 / 折算月费的订阅表达。",
+    "notes": "公开资料可见 GLM Coding Plan Lite 约 $30/季度，折合约 $10/月；不同档位与权益仍可能调整",
+    "sources": [
+      "https://vibecoding.app/blog/zhipu-ai-glm-pricing-2026"
+    ],
+    "lastChecked": null,
+    "lastChanged": null,
+    "changeSummary": ""
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "chatgpt": {
+    "urls": [
+      "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "https://openai.com/business/chatgpt-pricing/"
+    ],
+    "parser": "openai"
+  },
+  "claude": {
+    "urls": [
+      "https://support.claude.com/en/articles/11049762-choosing-a-claude-plan"
+    ],
+    "parser": "claude"
+  },
+  "gemini": {
+    "urls": [
+      "https://blog.google/products/google-one/google-ai-pro-ultra/"
+    ],
+    "parser": "gemini"
+  }
+}
